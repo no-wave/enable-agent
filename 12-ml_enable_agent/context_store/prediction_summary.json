@@ -1,0 +1,12 @@
+{
+  "total_predictions": 4,
+  "class_distribution": {
+    "setosa": 1,
+    "versicolor": 2,
+    "virginica": 1
+  },
+  "average_confidence": 0.9911666666666668,
+  "most_common_class": "versicolor",
+  "most_common_count": 2,
+  "last_updated": "2026-01-20T21:59:44.971882"
+}

@@ -1,0 +1,270 @@
+[
+  {
+    "is_fraud": false,
+    "risk_level": "LOW",
+    "anomaly_score": 0.3407318948688396,
+    "isolation_forest_score": 0.4759221492175834,
+    "autoencoder_score": 0.20554164052009583,
+    "risk_factors": [],
+    "input_data": {
+      "purchase_value": 45,
+      "age": 35,
+      "source": "SEO",
+      "browser": "Chrome",
+      "sex": "M",
+      "signup_time": "2024-01-15T10:30:00",
+      "purchase_time": "2024-02-20T14:25:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 867.9166666666666,
+      "signup_hour": 10,
+      "purchase_hour": 14,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:29:40.880348"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "LOW",
+    "anomaly_score": 0.35956411706792357,
+    "isolation_forest_score": 0.505648923861723,
+    "autoencoder_score": 0.21347931027412415,
+    "risk_factors": [],
+    "input_data": {
+      "purchase_value": 30,
+      "age": 28,
+      "source": "Ads",
+      "browser": "Safari",
+      "sex": "F",
+      "signup_time": "2024-01-10T09:00:00",
+      "purchase_time": "2024-01-25T16:30:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 367.5,
+      "signup_hour": 9,
+      "purchase_hour": 16,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:29:40.890077"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "HIGH",
+    "anomaly_score": 0.786000260967433,
+    "isolation_forest_score": 0.5720399802097073,
+    "autoencoder_score": 0.9999605417251587,
+    "risk_factors": [
+      "매우 빠른 구매",
+      "심야 거래",
+      "고액 거래",
+      "직접 유입"
+    ],
+    "input_data": {
+      "purchase_value": 150,
+      "age": 22,
+      "source": "Direct",
+      "browser": "Opera",
+      "sex": "M",
+      "signup_time": "2024-03-10T02:30:00",
+      "purchase_time": "2024-03-10T02:45:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.25,
+      "signup_hour": 2,
+      "purchase_hour": 2,
+      "is_weekend": 1,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-09T22:29:40.897239"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "HIGH",
+    "anomaly_score": 0.7825646562712749,
+    "isolation_forest_score": 0.5651293125425499,
+    "autoencoder_score": 1.0,
+    "risk_factors": [
+      "매우 빠른 구매",
+      "심야 거래",
+      "고액 거래",
+      "직접 유입"
+    ],
+    "input_data": {
+      "purchase_value": 200,
+      "age": 18,
+      "source": "Direct",
+      "browser": "IE",
+      "sex": "F",
+      "signup_time": "2024-03-15T03:00:00",
+      "purchase_time": "2024-03-15T03:01:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.016666666666666666,
+      "signup_hour": 3,
+      "purchase_hour": 3,
+      "is_weekend": 0,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-09T22:29:40.904621"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "LOW",
+    "anomaly_score": 0.4210780911189055,
+    "isolation_forest_score": 0.49433235377902496,
+    "autoencoder_score": 0.347823828458786,
+    "risk_factors": [],
+    "input_data": {
+      "purchase_value": 55,
+      "age": 42,
+      "source": "SEO",
+      "browser": "FireFox",
+      "sex": "M",
+      "signup_time": "2024-02-01T11:00:00",
+      "purchase_time": "2024-02-15T10:00:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 335.0,
+      "signup_hour": 11,
+      "purchase_hour": 10,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:29:40.910901"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "MEDIUM",
+    "anomaly_score": 0.5165846052157306,
+    "isolation_forest_score": 0.5347661380742835,
+    "autoencoder_score": 0.49840307235717773,
+    "risk_factors": [
+      "매우 빠른 구매"
+    ],
+    "input_data": {
+      "purchase_value": 80,
+      "age": 31,
+      "source": "Ads",
+      "browser": "Chrome",
+      "sex": "F",
+      "signup_time": "2024-02-10T14:00:00",
+      "purchase_time": "2024-02-10T14:30:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.5,
+      "signup_hour": 14,
+      "purchase_hour": 14,
+      "is_weekend": 1,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:29:40.916697"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "MEDIUM",
+    "anomaly_score": 0.5141547849290486,
+    "isolation_forest_score": 0.5220076899752847,
+    "autoencoder_score": 0.5063018798828125,
+    "risk_factors": [],
+    "input_data": {
+      "purchase_value": 25,
+      "age": 55,
+      "source": "SEO",
+      "browser": "Safari",
+      "sex": "M",
+      "signup_time": "2024-01-20T08:00:00",
+      "purchase_time": "2024-03-01T12:00:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 988.0,
+      "signup_hour": 8,
+      "purchase_hour": 12,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:29:40.922198"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "HIGH",
+    "anomaly_score": 0.7800249279331557,
+    "isolation_forest_score": 0.5600499750756008,
+    "autoencoder_score": 0.9999998807907104,
+    "risk_factors": [
+      "매우 빠른 구매",
+      "심야 거래",
+      "고액 거래",
+      "직접 유입"
+    ],
+    "input_data": {
+      "purchase_value": 180,
+      "age": 19,
+      "source": "Direct",
+      "browser": "Chrome",
+      "sex": "M",
+      "signup_time": "2024-03-20T04:00:00",
+      "purchase_time": "2024-03-20T04:05:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.08333333333333333,
+      "signup_hour": 4,
+      "purchase_hour": 4,
+      "is_weekend": 0,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-09T22:29:40.927501"
+  },
+  {
+    "is_fraud": false,
+    "risk_level": "LOW",
+    "anomaly_score": 0.3407318948688396,
+    "risk_factors": [],
+    "input_data": {
+      "purchase_value": 45,
+      "age": 35,
+      "source": "SEO",
+      "browser": "Chrome",
+      "sex": "M",
+      "signup_time": "2026-01-15T10:30:00",
+      "purchase_time": "2026-02-20T14:25:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 867.9166666666666,
+      "signup_hour": 10,
+      "purchase_hour": 14,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-09T22:30:15.518677"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "HIGH",
+    "anomaly_score": 0.7813764826197549,
+    "risk_factors": [
+      "매우 빠른 구매",
+      "심야 거래",
+      "고액 거래",
+      "직접 유입"
+    ],
+    "input_data": {
+      "purchase_value": 150,
+      "age": 19,
+      "source": "Direct",
+      "browser": "Opera",
+      "sex": "M",
+      "signup_time": "2026-01-09T02:30:00",
+      "purchase_time": "2026-01-09T02:45:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.25,
+      "signup_hour": 2,
+      "purchase_hour": 2,
+      "is_weekend": 0,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-09T22:30:20.516182"
+  }
+]

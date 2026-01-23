@@ -1,0 +1,107 @@
+agent_name: SpaceshipTransportPredictor
+version: 1.0.0
+description: Spaceship Titanic 승객의 다른 차원 이동 여부를 예측하는 딥러닝 에이전트
+capabilities:
+  primary: 승객 정보를 기반으로 다른 차원 이동(Transported) 여부를 예측한다
+  secondary:
+  - 예측 확률 및 신뢰도 제공
+  - 입력 데이터 유효성 검증
+  - AI 기반 예측 설명 생성
+input_schema:
+  type: object
+  properties:
+    HomePlanet:
+      type: integer
+      description: 출발 행성
+      minimum: 0
+      maximum: 3
+    CryoSleep:
+      type: integer
+      description: 냉동 수면 여부
+      minimum: 0
+      maximum: 1
+    Destination:
+      type: integer
+      description: 목적지
+      minimum: 0
+      maximum: 2
+    Age:
+      type: number
+      description: 나이
+      minimum: 0
+      maximum: 100
+    VIP:
+      type: integer
+      description: VIP 서비스 여부
+      minimum: 0
+      maximum: 1
+    RoomService:
+      type: number
+      description: 룸서비스 지출액
+      minimum: 0
+    FoodCourt:
+      type: number
+      description: 푸드코트 지출액
+      minimum: 0
+    ShoppingMall:
+      type: number
+      description: 쇼핑몰 지출액
+      minimum: 0
+    Spa:
+      type: number
+      description: 스파 지출액
+      minimum: 0
+    VRDeck:
+      type: number
+      description: VR 데크 지출액
+      minimum: 0
+  required:
+  - HomePlanet
+  - CryoSleep
+  - Destination
+  - Age
+  - VIP
+  - RoomService
+  - FoodCourt
+  - ShoppingMall
+  - Spa
+  - VRDeck
+output_schema:
+  type: object
+  properties:
+    predicted_class:
+      type: string
+      description: 예측된 이동 여부
+    probability:
+      type: number
+      description: 이동될 확률
+    confidence:
+      type: number
+      description: 예측 신뢰도
+    input_features:
+      type: object
+      description: 입력된 특성 값
+    timestamp:
+      type: string
+      description: 예측 수행 시각
+model_info:
+  model_path: models/spaceship_classifier.pth
+  scaler_path: models/spaceship_scaler.pkl
+  metadata_path: models/spaceship_classifier_metadata.json
+  framework: PyTorch
+encoding_maps:
+  HomePlanet:
+    0: Earth
+    1: Europa
+    2: Mars
+    3: Unknown
+  Destination:
+    0: TRAPPIST-1e
+    1: PSO J318.5-22
+    2: 55 Cancri e
+  CryoSleep:
+    0: 'No'
+    1: 'Yes'
+  VIP:
+    0: 'No'
+    1: 'Yes'

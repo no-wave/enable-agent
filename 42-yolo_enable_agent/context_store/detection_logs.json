@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "result": {
+      "image_path": "datasets/plastic/val/images/plastic_test_021.jpg",
+      "detections": [
+        {
+          "class_id": 33,
+          "class_name": "class_33",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.9125368595123291,
+          "bbox": [
+            901.6378784179688,
+            192.97052001953125,
+            1120.430908203125,
+            491.67266845703125
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 28,
+          "class_name": "class_28",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.3962414860725403,
+          "bbox": [
+            575.6348876953125,
+            1135.219482421875,
+            1223.4010009765625,
+            1704.7630615234375
+          ],
+          "disposal_guide": ""
+        }
+      ],
+      "num_detections": 2,
+      "class_counts": {
+        "class_33": 1,
+        "class_28": 1
+      },
+      "recyclable_count": 0,
+      "non_recyclable_count": 2,
+      "timestamp": "2026-01-15T21:45:10.447824"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 1
+    },
+    "timestamp": "2026-01-15T21:45:10.447834"
+  },
+  {
+    "id": 2,
+    "result": {
+      "image_path": "datasets/plastic/val/images/plastic_test_006.jpg",
+      "detections": [
+        {
+          "class_id": 37,
+          "class_name": "class_37",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.4729369878768921,
+          "bbox": [
+            391.6287536621094,
+            689.01318359375,
+            679.9959716796875,
+            1033.0714111328125
+          ],
+          "disposal_guide": ""
+        }
+      ],
+      "num_detections": 1,
+      "class_counts": {
+        "class_37": 1
+      },
+      "recyclable_count": 0,
+      "non_recyclable_count": 1,
+      "timestamp": "2026-01-15T21:45:10.508356"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 2
+    },
+    "timestamp": "2026-01-15T21:45:10.508363"
+  },
+  {
+    "id": 3,
+    "result": {
+      "image_path": "datasets/plastic/val/images/plastic_test_010.jpg",
+      "detections": [
+        {
+          "class_id": 67,
+          "class_name": "class_67",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.5182546973228455,
+          "bbox": [
+            512.6817626953125,
+            1365.773193359375,
+            1123.6932373046875,
+            2044.111572265625
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 39,
+          "class_name": "class_39",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.4675638675689697,
+          "bbox": [
+            907.3890380859375,
+            187.120361328125,
+            1211.754638671875,
+            593.7926025390625
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 67,
+          "class_name": "class_67",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.3769941031932831,
+          "bbox": [
+            826.1629028320312,
+            564.3694458007812,
+            1341.888427734375,
+            1012.83447265625
+          ],
+          "disposal_guide": ""
+        }
+      ],
+      "num_detections": 3,
+      "class_counts": {
+        "class_67": 2,
+        "class_39": 1
+      },
+      "recyclable_count": 0,
+      "non_recyclable_count": 3,
+      "timestamp": "2026-01-15T21:45:10.571208"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 3
+    },
+    "timestamp": "2026-01-15T21:45:10.571215"
+  },
+  {
+    "id": 4,
+    "result": {
+      "image_path": "datasets/plastic/val/images/plastic_test_015.jpg",
+      "detections": [
+        {
+          "class_id": 74,
+          "class_name": "class_74",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.890929102897644,
+          "bbox": [
+            372.67742919921875,
+            653.4559326171875,
+            870.8209228515625,
+            1123.709228515625
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 74,
+          "class_name": "class_74",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.4639833867549896,
+          "bbox": [
+            1216.193359375,
+            221.5533905029297,
+            1694.533203125,
+            729.6165161132812
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 41,
+          "class_name": "class_41",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.33036017417907715,
+          "bbox": [
+            353.24603271484375,
+            1427.1806640625,
+            556.5186157226562,
+            1689.6138916015625
+          ],
+          "disposal_guide": ""
+        }
+      ],
+      "num_detections": 3,
+      "class_counts": {
+        "class_74": 2,
+        "class_41": 1
+      },
+      "recyclable_count": 0,
+      "non_recyclable_count": 3,
+      "timestamp": "2026-01-15T21:45:10.633704"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 4
+    },
+    "timestamp": "2026-01-15T21:45:10.633712"
+  },
+  {
+    "id": 5,
+    "result": {
+      "image_path": "datasets/plastic/val/images/plastic_test_016.jpg",
+      "detections": [
+        {
+          "class_id": 29,
+          "class_name": "class_29",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.7342117428779602,
+          "bbox": [
+            987.5335693359375,
+            58.87141036987305,
+            1277.760498046875,
+            349.9141540527344
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 67,
+          "class_name": "class_67",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.3230077028274536,
+          "bbox": [
+            710.885009765625,
+            577.5968627929688,
+            1075.511474609375,
+            865.6138916015625
+          ],
+          "disposal_guide": ""
+        },
+        {
+          "class_id": 67,
+          "class_name": "class_67",
+          "full_name": "",
+          "recycle_code": "",
+          "recyclable": false,
+          "confidence": 0.28994396328926086,
+          "bbox": [
+            1285.3363037109375,
+            1324.6533203125,
+            1886.2626953125,
+            1553.9482421875
+          ],
+          "disposal_guide": ""
+        }
+      ],
+      "num_detections": 3,
+      "class_counts": {
+        "class_29": 1,
+        "class_67": 2
+      },
+      "recyclable_count": 0,
+      "non_recyclable_count": 3,
+      "timestamp": "2026-01-15T21:45:10.694568"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 5
+    },
+    "timestamp": "2026-01-15T21:45:10.694574"
+  }
+]

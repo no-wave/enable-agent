@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "result": {
+      "predicted_class": "setosa",
+      "korean_name": "부채붓꽃",
+      "confidence": 1.0,
+      "probabilities": {
+        "setosa": 1.0,
+        "versicolor": 0.0,
+        "virginica": 0.0
+      },
+      "description": "꽃잎이 작고 꽃받침이 넓은 품종이다.",
+      "characteristics": "꽃잎 길이 < 2cm, 꽃잎 너비 < 0.5cm",
+      "input_features": {
+        "sepal length (cm)": 5.1,
+        "sepal width (cm)": 3.5,
+        "petal length (cm)": 1.4,
+        "petal width (cm)": 0.2
+      },
+      "timestamp": "2026-01-20T21:59:44.963688"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 1
+    },
+    "timestamp": "2026-01-20T21:59:44.963692"
+  },
+  {
+    "id": 2,
+    "result": {
+      "predicted_class": "versicolor",
+      "korean_name": "버시컬러 붓꽃",
+      "confidence": 0.9823333333333334,
+      "probabilities": {
+        "setosa": 0.0,
+        "versicolor": 0.9823333333333334,
+        "virginica": 0.017666666666666667
+      },
+      "description": "중간 크기의 꽃잎을 가진 품종이다.",
+      "characteristics": "꽃잎 길이 3-5cm, 꽃잎 너비 1-1.5cm",
+      "input_features": {
+        "sepal length (cm)": 6.0,
+        "sepal width (cm)": 2.9,
+        "petal length (cm)": 4.5,
+        "petal width (cm)": 1.5
+      },
+      "timestamp": "2026-01-20T21:59:44.966417"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 2
+    },
+    "timestamp": "2026-01-20T21:59:44.966419"
+  },
+  {
+    "id": 3,
+    "result": {
+      "predicted_class": "virginica",
+      "korean_name": "버지니카 붓꽃",
+      "confidence": 1.0,
+      "probabilities": {
+        "setosa": 0.0,
+        "versicolor": 0.0,
+        "virginica": 1.0
+      },
+      "description": "꽃잎이 크고 길쭉한 품종이다.",
+      "characteristics": "꽃잎 길이 > 5cm, 꽃잎 너비 > 1.5cm",
+      "input_features": {
+        "sepal length (cm)": 6.7,
+        "sepal width (cm)": 3.0,
+        "petal length (cm)": 5.2,
+        "petal width (cm)": 2.3
+      },
+      "timestamp": "2026-01-20T21:59:44.969077"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 3
+    },
+    "timestamp": "2026-01-20T21:59:44.969079"
+  },
+  {
+    "id": 4,
+    "result": {
+      "predicted_class": "versicolor",
+      "korean_name": "버시컬러 붓꽃",
+      "confidence": 0.9823333333333334,
+      "probabilities": {
+        "setosa": 0.0,
+        "versicolor": 0.9823333333333334,
+        "virginica": 0.017666666666666667
+      },
+      "description": "중간 크기의 꽃잎을 가진 품종이다.",
+      "characteristics": "꽃잎 길이 3-5cm, 꽃잎 너비 1-1.5cm",
+      "input_features": {
+        "sepal length (cm)": 5.9,
+        "sepal width (cm)": 3.0,
+        "petal length (cm)": 4.2,
+        "petal width (cm)": 1.5
+      },
+      "timestamp": "2026-01-20T21:59:44.971771"
+    },
+    "metadata": {
+      "demo": true,
+      "index": 4
+    },
+    "timestamp": "2026-01-20T21:59:44.971772"
+  }
+]

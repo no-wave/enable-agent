@@ -1,0 +1,10 @@
+{
+  "total_predictions": 12,
+  "class_distribution": {
+    "Transported": 5,
+    "Not Transported": 7
+  },
+  "average_probability": 0.3929689965831737,
+  "average_confidence": 0.8428653834077219,
+  "last_updated": "2025-12-16T18:15:38.536856"
+}

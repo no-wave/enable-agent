@@ -1,0 +1,20 @@
+# YOLO
+ultralytics>=8.0.0
+
+# Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+Pillow>=9.0.0
+
+# OpenAI
+openai>=1.12.0
+
+# Data serialization
+pyyaml>=6.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Jupyter
+jupyter>=1.0.0

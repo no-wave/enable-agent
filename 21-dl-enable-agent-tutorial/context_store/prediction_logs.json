@@ -1,0 +1,362 @@
+[
+  {
+    "predicted_class": "Transported",
+    "probability": 0.666551411151886,
+    "confidence": 0.666551411151886,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 1,
+      "Destination": 2,
+      "Age": 25.0,
+      "VIP": 0,
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "Yes",
+      "Destination": "55 Cancri e",
+      "Age": 25.0,
+      "VIP": "No",
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "timestamp": "2025-12-16T18:14:47.486434"
+  },
+  {
+    "predicted_class": "Transported",
+    "probability": 0.9921922087669373,
+    "confidence": 0.9921922087669373,
+    "input_features": {
+      "HomePlanet": 1,
+      "CryoSleep": 1,
+      "Destination": 0,
+      "Age": 35.0,
+      "VIP": 0,
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Europa",
+      "CryoSleep": "Yes",
+      "Destination": "TRAPPIST-1e",
+      "Age": 35.0,
+      "VIP": "No",
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "timestamp": "2025-12-16T18:14:47.487850"
+  },
+  {
+    "predicted_class": "Transported",
+    "probability": 0.9141226410865784,
+    "confidence": 0.9141226410865784,
+    "input_features": {
+      "HomePlanet": 2,
+      "CryoSleep": 1,
+      "Destination": 1,
+      "Age": 45.0,
+      "VIP": 0,
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Mars",
+      "CryoSleep": "Yes",
+      "Destination": "PSO J318.5-22",
+      "Age": 45.0,
+      "VIP": "No",
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "timestamp": "2025-12-16T18:14:47.489113"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.004685278981924057,
+    "confidence": 0.9953147210180759,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 0,
+      "Destination": 2,
+      "Age": 40.0,
+      "VIP": 1,
+      "RoomService": 1500.0,
+      "FoodCourt": 2000.0,
+      "ShoppingMall": 800.0,
+      "Spa": 3000.0,
+      "VRDeck": 1200.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "No",
+      "Destination": "55 Cancri e",
+      "Age": 40.0,
+      "VIP": "Yes",
+      "RoomService": 1500.0,
+      "FoodCourt": 2000.0,
+      "ShoppingMall": 800.0,
+      "Spa": 3000.0,
+      "VRDeck": 1200.0
+    },
+    "timestamp": "2025-12-16T18:14:47.490602"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.0005296702729538083,
+    "confidence": 0.9994703297270462,
+    "input_features": {
+      "HomePlanet": 1,
+      "CryoSleep": 0,
+      "Destination": 0,
+      "Age": 55.0,
+      "VIP": 1,
+      "RoomService": 2500.0,
+      "FoodCourt": 1500.0,
+      "ShoppingMall": 1200.0,
+      "Spa": 4000.0,
+      "VRDeck": 2000.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Europa",
+      "CryoSleep": "No",
+      "Destination": "TRAPPIST-1e",
+      "Age": 55.0,
+      "VIP": "Yes",
+      "RoomService": 2500.0,
+      "FoodCourt": 1500.0,
+      "ShoppingMall": 1200.0,
+      "Spa": 4000.0,
+      "VRDeck": 2000.0
+    },
+    "timestamp": "2025-12-16T18:14:47.492086"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.2061675488948822,
+    "confidence": 0.7938324511051178,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 0,
+      "Destination": 2,
+      "Age": 22.0,
+      "VIP": 0,
+      "RoomService": 50.0,
+      "FoodCourt": 100.0,
+      "ShoppingMall": 30.0,
+      "Spa": 0.0,
+      "VRDeck": 200.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "No",
+      "Destination": "55 Cancri e",
+      "Age": 22.0,
+      "VIP": "No",
+      "RoomService": 50.0,
+      "FoodCourt": 100.0,
+      "ShoppingMall": 30.0,
+      "Spa": 0.0,
+      "VRDeck": 200.0
+    },
+    "timestamp": "2025-12-16T18:14:47.493278"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.3501679599285126,
+    "confidence": 0.6498320400714874,
+    "input_features": {
+      "HomePlanet": 2,
+      "CryoSleep": 0,
+      "Destination": 1,
+      "Age": 30.0,
+      "VIP": 0,
+      "RoomService": 0.0,
+      "FoodCourt": 500.0,
+      "ShoppingMall": 100.0,
+      "Spa": 200.0,
+      "VRDeck": 0.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Mars",
+      "CryoSleep": "No",
+      "Destination": "PSO J318.5-22",
+      "Age": 30.0,
+      "VIP": "No",
+      "RoomService": 0.0,
+      "FoodCourt": 500.0,
+      "ShoppingMall": 100.0,
+      "Spa": 200.0,
+      "VRDeck": 0.0
+    },
+    "timestamp": "2025-12-16T18:14:47.494430"
+  },
+  {
+    "predicted_class": "Transported",
+    "probability": 0.6755886077880859,
+    "confidence": 0.6755886077880859,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 1,
+      "Destination": 2,
+      "Age": 8.0,
+      "VIP": 0,
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "Yes",
+      "Destination": "55 Cancri e",
+      "Age": 8.0,
+      "VIP": "No",
+      "RoomService": 0.0,
+      "FoodCourt": 0.0,
+      "ShoppingMall": 0.0,
+      "Spa": 0.0,
+      "VRDeck": 0.0
+    },
+    "timestamp": "2025-12-16T18:14:47.495497"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.12705208361148834,
+    "confidence": 0.8729479163885117,
+    "input_features": {
+      "HomePlanet": 1,
+      "CryoSleep": 0,
+      "Destination": 0,
+      "Age": 70.0,
+      "VIP": 1,
+      "RoomService": 800.0,
+      "FoodCourt": 300.0,
+      "ShoppingMall": 200.0,
+      "Spa": 1500.0,
+      "VRDeck": 100.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Europa",
+      "CryoSleep": "No",
+      "Destination": "TRAPPIST-1e",
+      "Age": 70.0,
+      "VIP": "Yes",
+      "RoomService": 800.0,
+      "FoodCourt": 300.0,
+      "ShoppingMall": 200.0,
+      "Spa": 1500.0,
+      "VRDeck": 100.0
+    },
+    "timestamp": "2025-12-16T18:14:47.496887"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.11123475432395935,
+    "confidence": 0.8887652456760406,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 0,
+      "Destination": 2,
+      "Age": 18.0,
+      "VIP": 0,
+      "RoomService": 100.0,
+      "FoodCourt": 800.0,
+      "ShoppingMall": 500.0,
+      "Spa": 0.0,
+      "VRDeck": 1500.0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "No",
+      "Destination": "55 Cancri e",
+      "Age": 18.0,
+      "VIP": "No",
+      "RoomService": 100.0,
+      "FoodCourt": 800.0,
+      "ShoppingMall": 500.0,
+      "Spa": 0.0,
+      "VRDeck": 1500.0
+    },
+    "timestamp": "2025-12-16T18:14:47.498027"
+  },
+  {
+    "predicted_class": "Transported",
+    "probability": 0.666551411151886,
+    "confidence": 0.666551411151886,
+    "input_features": {
+      "HomePlanet": 0,
+      "CryoSleep": 1,
+      "Destination": 2,
+      "Age": 25,
+      "VIP": 0,
+      "RoomService": 0,
+      "FoodCourt": 0,
+      "ShoppingMall": 0,
+      "Spa": 0,
+      "VRDeck": 0
+    },
+    "decoded_features": {
+      "HomePlanet": "Earth",
+      "CryoSleep": "Yes",
+      "Destination": "55 Cancri e",
+      "Age": 25,
+      "VIP": "No",
+      "RoomService": 0,
+      "FoodCourt": 0,
+      "ShoppingMall": 0,
+      "Spa": 0,
+      "VRDeck": 0
+    },
+    "timestamp": "2025-12-16T18:15:32.701403"
+  },
+  {
+    "predicted_class": "Not Transported",
+    "probability": 0.0007843830389901996,
+    "confidence": 0.9992156169610098,
+    "input_features": {
+      "HomePlanet": 1,
+      "CryoSleep": 0,
+      "Destination": 0,
+      "Age": 45,
+      "VIP": 1,
+      "RoomService": 2000,
+      "FoodCourt": 3000,
+      "ShoppingMall": 1000,
+      "Spa": 5000,
+      "VRDeck": 1500
+    },
+    "decoded_features": {
+      "HomePlanet": "Europa",
+      "CryoSleep": "No",
+      "Destination": "TRAPPIST-1e",
+      "Age": 45,
+      "VIP": "Yes",
+      "RoomService": 2000,
+      "FoodCourt": 3000,
+      "ShoppingMall": 1000,
+      "Spa": 5000,
+      "VRDeck": 1500
+    },
+    "timestamp": "2025-12-16T18:15:38.534934"
+  }
+]

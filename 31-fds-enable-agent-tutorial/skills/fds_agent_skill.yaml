@@ -1,0 +1,84 @@
+agent_name: FraudDetectionAgent
+version: 1.0.0
+description: 거래 데이터를 분석하여 사기 가능성을 탐지하는 이상치 탐지 에이전트
+capabilities:
+  primary: 거래의 사기 가능성을 실시간으로 탐지하고 위험도를 평가한다
+  secondary:
+  - 앙상블 이상치 점수 산출
+  - 위험도 등급 분류 (LOW/MEDIUM/HIGH/CRITICAL)
+  - 의심 요인 분석
+  - AI 기반 탐지 설명 생성
+input_schema:
+  type: object
+  properties:
+    purchase_value:
+      type: number
+      description: 구매 금액
+      minimum: 0
+    age:
+      type: integer
+      description: 사용자 나이
+      minimum: 0
+      maximum: 120
+    source:
+      type: string
+      description: 유입 경로
+      enum:
+      - SEO
+      - Ads
+      - Direct
+    browser:
+      type: string
+      description: 브라우저
+      enum:
+      - Chrome
+      - Safari
+      - FireFox
+      - IE
+      - Opera
+    sex:
+      type: string
+      description: 성별
+      enum:
+      - M
+      - F
+    signup_time:
+      type: string
+      description: 가입 시간 (ISO format)
+    purchase_time:
+      type: string
+      description: 구매 시간 (ISO format)
+  required:
+  - purchase_value
+  - age
+  - source
+  - browser
+  - sex
+  - signup_time
+  - purchase_time
+output_schema:
+  type: object
+  properties:
+    is_fraud:
+      type: boolean
+      description: 사기 여부
+    risk_level:
+      type: string
+      description: 위험도 등급
+    anomaly_score:
+      type: number
+      description: 이상치 점수 (0-1)
+    risk_factors:
+      type: array
+      description: 위험 요인 목록
+model_info:
+  isolation_forest_path: models/isolation_forest.pkl
+  autoencoder_path: models/autoencoder.pth
+  scaler_path: models/fds_scaler.pkl
+  label_encoders_path: models/label_encoders.pkl
+  metadata_path: models/fds_metadata.json
+risk_thresholds:
+  low: 0.3
+  medium: 0.5
+  high: 0.7
+  critical: 0.85

@@ -1,0 +1,76 @@
+agent_name: PlasticDetectionAgent
+version: 1.0.0
+description: 이미지에서 플라스틱 재활용 소재를 탐지하고 분류하는 객체 탐지 에이전트
+capabilities:
+  primary: 이미지에서 PET, PS, PP, PE 플라스틱 소재를 탐지하고 위치를 반환한다
+  secondary:
+  - 다중 객체 탐지
+  - 바운딩 박스 및 신뢰도 반환
+  - 재활용 가이드 제공
+  - 탐지 결과 시각화
+classes:
+  0:
+    name: pet
+    full_name: Polyethylene Terephthalate
+    recycle_code: '#1'
+  1:
+    name: ps
+    full_name: Polystyrene
+    recycle_code: '#6'
+  2:
+    name: pp
+    full_name: Polypropylene
+    recycle_code: '#5'
+  3:
+    name: pe
+    full_name: Polyethylene
+    recycle_code: '#2,#4'
+input_schema:
+  type: object
+  properties:
+    image_path:
+      type: string
+      description: 이미지 파일 경로
+    image_base64:
+      type: string
+      description: Base64 인코딩된 이미지
+    confidence_threshold:
+      type: number
+      default: 0.25
+      minimum: 0
+      maximum: 1
+    iou_threshold:
+      type: number
+      default: 0.45
+      minimum: 0
+      maximum: 1
+output_schema:
+  type: object
+  properties:
+    detections:
+      type: array
+      items:
+        type: object
+        properties:
+          class_id:
+            type: integer
+          class_name:
+            type: string
+          confidence:
+            type: number
+          bbox:
+            type: array
+            description: '[x1, y1, x2, y2]'
+          recycle_code:
+            type: string
+    num_detections:
+      type: integer
+    class_counts:
+      type: object
+    timestamp:
+      type: string
+model_info:
+  model_path: models/plastic_yolov8_best.pt
+  metadata_path: models/yolo_metadata.json
+  input_size: 640
+  model_type: YOLOv8

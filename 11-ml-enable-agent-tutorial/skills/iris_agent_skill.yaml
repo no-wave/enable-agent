@@ -1,0 +1,80 @@
+agent_name: "Iris Classification Agent"
+version: "1.0.0"
+description: "붓꽃(Iris) 품종을 분류하는 머신러닝 Enable Agent"
+
+capabilities:
+  primary: "iris_classification"
+  secondary:
+    - "feature_analysis"
+    - "prediction_explanation"
+
+model_info:
+  type: "RandomForestClassifier"
+  framework: "scikit-learn"
+  model_path: "models/iris_classifier.pkl"
+  metadata_path: "models/iris_classifier_metadata.json"
+
+input_schema:
+  type: "object"
+  required:
+    - "sepal_length"
+    - "sepal_width"
+    - "petal_length"
+    - "petal_width"
+  properties:
+    sepal_length:
+      type: "number"
+      description: "꽃받침 길이 (cm)"
+      minimum: 4.0
+      maximum: 8.0
+    sepal_width:
+      type: "number"
+      description: "꽃받침 너비 (cm)"
+      minimum: 2.0
+      maximum: 5.0
+    petal_length:
+      type: "number"
+      description: "꽃잎 길이 (cm)"
+      minimum: 1.0
+      maximum: 7.0
+    petal_width:
+      type: "number"
+      description: "꽃잎 너비 (cm)"
+      minimum: 0.1
+      maximum: 3.0
+
+output_schema:
+  type: "object"
+  properties:
+    predicted_class:
+      type: "string"
+      description: "예측된 붓꽃 품종"
+    confidence:
+      type: "number"
+      description: "예측 신뢰도 (0-1)"
+    probabilities:
+      type: "object"
+      description: "각 클래스별 확률"
+    feature_importance:
+      type: "object"
+      description: "특성별 중요도"
+
+usage_examples:
+  - description: "Setosa 품종 예측"
+    input:
+      sepal_length: 5.1
+      sepal_width: 3.5
+      petal_length: 1.4
+      petal_width: 0.2
+    expected_output: "setosa"
+  - description: "Versicolor 품종 예측"
+    input:
+      sepal_length: 6.4
+      sepal_width: 3.2
+      petal_length: 4.5
+      petal_width: 1.5
+    expected_output: "versicolor"
+
+constraints:
+  max_requests_per_minute: 100
+  timeout_seconds: 5

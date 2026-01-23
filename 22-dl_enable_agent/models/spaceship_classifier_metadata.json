@@ -1,0 +1,57 @@
+{
+  "model_type": "PyTorch Neural Network",
+  "architecture": "SpaceshipClassifier",
+  "input_dim": 10,
+  "hidden_dims": [
+    64,
+    32,
+    16
+  ],
+  "dropout_rate": 0.3,
+  "feature_names": [
+    "HomePlanet",
+    "CryoSleep",
+    "Destination",
+    "Age",
+    "VIP",
+    "RoomService",
+    "FoodCourt",
+    "ShoppingMall",
+    "Spa",
+    "VRDeck"
+  ],
+  "target_name": "Transported",
+  "target_classes": [
+    "Not Transported",
+    "Transported"
+  ],
+  "test_accuracy": 0.8010350776308223,
+  "test_auc_roc": 0.8812639883172748,
+  "training_samples": 5215,
+  "scaler_mean": [
+    0.7250239693192714,
+    0.40575263662511984,
+    1.5041227229146692,
+    28.714860977948227,
+    0.06845637583892618,
+    232.10987535953979,
+    440.1823585810163,
+    163.34745925215725,
+    319.05465004793865,
+    285.0329817833174
+  ],
+  "scaler_scale": [
+    0.8682847366465234,
+    0.5404851023906941,
+    0.847721141383657,
+    14.247672251213151,
+    0.3330791509114823,
+    691.4969441620655,
+    1561.7786757226531,
+    538.8624993208125,
+    1219.8488377050935,
+    1077.3479380149033
+  ],
+  "trained_at": "2026-01-20T22:47:18.084542",
+  "pytorch_version": "2.8.0"
+}

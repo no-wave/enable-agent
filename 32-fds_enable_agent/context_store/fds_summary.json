@@ -1,0 +1,16 @@
+{
+  "total_analyses": 4,
+  "fraud_detected": 4,
+  "fraud_rate": 1.0,
+  "risk_distribution": {
+    "LOW": 2,
+    "MEDIUM": 2,
+    "HIGH": 0,
+    "CRITICAL": 0
+  },
+  "average_anomaly_score": 0.5135732725702613,
+  "average_purchase_value": 106.25,
+  "fraud_avg_time_diff_hours": 301.6708333333333,
+  "normal_avg_time_diff_hours": 0,
+  "last_updated": "2026-01-15T19:19:04.296534"
+}

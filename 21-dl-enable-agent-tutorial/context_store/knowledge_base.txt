@@ -1,0 +1,32 @@
+# Spaceship Titanic 예측 지식 베이스
+
+## 전체 통계
+- 총 예측 횟수: 12회
+- 평균 이동 확률: 39.30%
+- 평균 신뢰도: 84.29%
+
+## 예측 결과 분포
+- Transported: 5회 (41.7%)
+- Not Transported: 7회 (58.3%)
+
+## 최근 예측 (최근 5개)
+
+### 예측 #12
+- 결과: Not Transported (확률: 0.08%)
+- 출발: Europa, 냉동수면: No
+
+### 예측 #11
+- 결과: Transported (확률: 66.66%)
+- 출발: Earth, 냉동수면: Yes
+
+### 예측 #10
+- 결과: Not Transported (확률: 11.12%)
+- 출발: Earth, 냉동수면: No
+
+### 예측 #9
+- 결과: Not Transported (확률: 12.71%)
+- 출발: Europa, 냉동수면: No
+
+### 예측 #8
+- 결과: Transported (확률: 67.56%)
+- 출발: Earth, 냉동수면: Yes

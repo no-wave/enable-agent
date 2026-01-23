@@ -1,0 +1,94 @@
+agent_name: IrisClassificationAgent
+version: 1.0.0
+description: 붓꽃(Iris) 품종을 분류하는 에이전트. 꽃받침과 꽃잎의 길이/너비를 입력받아 Setosa, Versicolor, Virginica
+  중 하나로 분류한다.
+capabilities:
+  primary: 붓꽃 품종 분류
+  secondary:
+  - 분류 결과 설명
+  - 특성 중요도 분석
+  - 신뢰도 기반 예측
+classes:
+  setosa:
+    korean_name: 부채붓꽃
+    description: 꽃잎이 작고 꽃받침이 넓은 품종이다.
+    characteristics: 꽃잎 길이 < 2cm, 꽃잎 너비 < 0.5cm
+    color: 보라색, 흰색
+  versicolor:
+    korean_name: 버시컬러 붓꽃
+    description: 중간 크기의 꽃잎을 가진 품종이다.
+    characteristics: 꽃잎 길이 3-5cm, 꽃잎 너비 1-1.5cm
+    color: 파란색, 보라색
+  virginica:
+    korean_name: 버지니카 붓꽃
+    description: 꽃잎이 크고 길쭉한 품종이다.
+    characteristics: 꽃잎 길이 > 5cm, 꽃잎 너비 > 1.5cm
+    color: 파란색, 보라색
+features:
+  sepal_length:
+    name: sepal length (cm)
+    korean_name: 꽃받침 길이
+    unit: cm
+    typical_range:
+    - 4.3
+    - 7.9
+  sepal_width:
+    name: sepal width (cm)
+    korean_name: 꽃받침 너비
+    unit: cm
+    typical_range:
+    - 2.0
+    - 4.4
+  petal_length:
+    name: petal length (cm)
+    korean_name: 꽃잎 길이
+    unit: cm
+    typical_range:
+    - 1.0
+    - 6.9
+  petal_width:
+    name: petal width (cm)
+    korean_name: 꽃잎 너비
+    unit: cm
+    typical_range:
+    - 0.1
+    - 2.5
+input_schema:
+  type: object
+  properties:
+    sepal_length:
+      type: number
+      description: 꽃받침 길이 (cm)
+    sepal_width:
+      type: number
+      description: 꽃받침 너비 (cm)
+    petal_length:
+      type: number
+      description: 꽃잎 길이 (cm)
+    petal_width:
+      type: number
+      description: 꽃잎 너비 (cm)
+  required:
+  - sepal_length
+  - sepal_width
+  - petal_length
+  - petal_width
+output_schema:
+  type: object
+  properties:
+    predicted_class:
+      type: string
+      description: 예측된 품종
+    korean_name:
+      type: string
+      description: 품종 한글명
+    confidence:
+      type: number
+      description: 예측 신뢰도
+    probabilities:
+      type: object
+      description: 클래스별 확률
+model_info:
+  model_path: models/iris_classifier.pkl
+  metadata_path: models/iris_classifier_metadata.json
+  model_type: RandomForestClassifier

@@ -1,0 +1,16 @@
+{
+  "total_predictions": 12,
+  "class_distribution": {
+    "setosa": 4,
+    "versicolor": 3,
+    "virginica": 5
+  },
+  "average_confidence": 0.9649305555555555,
+  "feature_averages": {
+    "sepal_length": 5.816666666666666,
+    "sepal_width": 3.125,
+    "petal_length": 3.9916666666666667,
+    "petal_width": 1.3916666666666666
+  },
+  "last_updated": "2025-12-16T09:02:05.625353"
+}

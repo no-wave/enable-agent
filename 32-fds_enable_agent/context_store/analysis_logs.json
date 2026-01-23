@@ -1,0 +1,117 @@
+[
+  {
+    "is_fraud": true,
+    "risk_level": "LOW",
+    "anomaly_score": 0.34600566913508257,
+    "isolation_forest_score": 0.4759221492175834,
+    "autoencoder_score": 0.2160891890525818,
+    "risk_factors": [
+      "모델이 탐지한 이상 패턴"
+    ],
+    "input_data": {
+      "purchase_value": 45,
+      "age": 35,
+      "source": "SEO",
+      "browser": "Chrome",
+      "sex": "M",
+      "signup_time": "2024-01-15T10:30:00",
+      "purchase_time": "2024-02-20T14:25:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 867.9166666666666,
+      "signup_hour": 10,
+      "purchase_hour": 14,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-15T19:19:04.285007"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "LOW",
+    "anomaly_score": 0.39750633407311786,
+    "isolation_forest_score": 0.5175902400151322,
+    "autoencoder_score": 0.2774224281311035,
+    "risk_factors": [
+      "모델이 탐지한 이상 패턴"
+    ],
+    "input_data": {
+      "purchase_value": 30,
+      "age": 42,
+      "source": "Ads",
+      "browser": "Safari",
+      "sex": "F",
+      "signup_time": "2024-02-01T09:00:00",
+      "purchase_time": "2024-02-15T11:30:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 338.5,
+      "signup_hour": 9,
+      "purchase_hour": 11,
+      "is_weekend": 0,
+      "is_night": 0
+    },
+    "timestamp": "2026-01-15T19:19:04.288902"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "MEDIUM",
+    "anomaly_score": 0.6548017951433058,
+    "isolation_forest_score": 0.5720399802097073,
+    "autoencoder_score": 0.7375636100769043,
+    "risk_factors": [
+      "매우 빠른 구매 (가입 후 1시간 이내)",
+      "심야 시간대 거래 (00:00-06:00)",
+      "고액 거래 ($150)",
+      "직접 유입 (Direct)"
+    ],
+    "input_data": {
+      "purchase_value": 150,
+      "age": 22,
+      "source": "Direct",
+      "browser": "Opera",
+      "sex": "M",
+      "signup_time": "2024-03-10T02:30:00",
+      "purchase_time": "2024-03-10T02:45:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.25,
+      "signup_hour": 2,
+      "purchase_hour": 2,
+      "is_weekend": 1,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-15T19:19:04.292703"
+  },
+  {
+    "is_fraud": true,
+    "risk_level": "MEDIUM",
+    "anomaly_score": 0.6559792919295391,
+    "isolation_forest_score": 0.5651293125425499,
+    "autoencoder_score": 0.7468292713165283,
+    "risk_factors": [
+      "매우 빠른 구매 (가입 후 1시간 이내)",
+      "심야 시간대 거래 (00:00-06:00)",
+      "고액 거래 ($200)",
+      "비일반적 연령대 (18세)",
+      "직접 유입 (Direct)"
+    ],
+    "input_data": {
+      "purchase_value": 200,
+      "age": 18,
+      "source": "Direct",
+      "browser": "IE",
+      "sex": "F",
+      "signup_time": "2024-03-15T03:00:00",
+      "purchase_time": "2024-03-15T03:01:00"
+    },
+    "derived_features": {
+      "time_diff_hours": 0.016666666666666666,
+      "signup_hour": 3,
+      "purchase_hour": 3,
+      "is_weekend": 0,
+      "is_night": 1
+    },
+    "timestamp": "2026-01-15T19:19:04.296415"
+  }
+]

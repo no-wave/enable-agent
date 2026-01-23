@@ -1,0 +1,23 @@
+{
+  "total_images": 3,
+  "total_detections": 14,
+  "class_statistics": {
+    "pet": {
+      "count": 5,
+      "avg_confidence": 0.810713815689087
+    },
+    "ps": {
+      "count": 3,
+      "avg_confidence": 0.5669761697451273
+    },
+    "pp": {
+      "count": 5,
+      "avg_confidence": 0.6636972010135651
+    },
+    "pe": {
+      "count": 1,
+      "avg_confidence": 0.5137787461280823
+    }
+  },
+  "last_updated": "2026-01-15T13:06:44.412964"
+}

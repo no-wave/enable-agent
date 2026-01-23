@@ -1,0 +1,21 @@
+{
+  "total_predictions": 12,
+  "class_distribution": {
+    "Transported": 4,
+    "Not Transported": 8
+  },
+  "average_probability": 0.30579885507177096,
+  "average_confidence": 0.7996584309682172,
+  "average_age": 33.333333333333336,
+  "average_total_spending": 4050.0,
+  "homeplanet_distribution": {
+    "0": 4,
+    "1": 4,
+    "2": 4
+  },
+  "cryosleep_distribution": {
+    "0": 8,
+    "1": 4
+  },
+  "last_updated": "2026-01-20T22:47:18.119276"
+}
