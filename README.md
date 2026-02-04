@@ -1,5 +1,5 @@
 # Enable Agent로 똑똑한 AI 에이전트 만들기
-기존 ML/DL 모델을 대화형 AI 에이전트로 Enable 전환 실전 가이드
+#### 기존 ML/DL 모델을 대화형 AI 에이전트로 Enable 전환 실전 가이드
 
 
 <img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252FypgroGjhlTxVelbYRQey%252FFrame%25207.png%3Falt%3Dmedia%26token%3D3ba304e0-8cb6-47f4-bbc6-69eac7a68cfc&width=300&dpr=3&quality=100&sign=cb064d68&sv=2" width="500" height="707"/>
@@ -27,44 +27,71 @@ Enable Agent는 더 이상 소수의 전문가만이 다루는 고급 기술이 
 ## 목 차
 
 저자 소개
+
 Table of Contents (목차)
+
 서문: 들어가며
 
 제1부: Enable Agent, 에이전트 전환
+
 1.1. Enable Agent 개요
+
 1.2. Enable Agent의 이점
+
 1.3. 지속적 개선과 피드백
+
 1.4. Enable Agent 패턴 방식
 
 제2부: Enable Agent: 머신 러닝
+
 Part 1. Enable Agent: ML 모델 학습
+
 Part 2. Enable Agent: ML 모델의 Enable Agent화
+
 Part 3. Enable Agent: 예측 결과 컨텍스트화
+
 Part 4. Enable Agent: RAG 챗봇 및 보고서 생성
+
 Part 5. Enable Agent 프로젝트
 
 제3부: Enable Agent 딥러닝
+
 Part 1. Enable Agent: PyTorch 딥러닝 모델 학습
+
 Part 2. Enable Agent: Enable Agent 구현
+
 Part 3. Enable Agent: Context Builder 구현
+
 Part 4. Enable Agent: RAG 챗봇 구현
+
 Part 5. Enable Agent 프로젝트
 
 제4부: Enable Agent FDS 이상치 탐지
+
 Part 1. Enable Agent: 이상치 탐지 모델 학습 (FDS)
+
 Part 2. Enable Agent: FDS Enable Agent 구현
+
 Part 3. Enable Agent: FDS Context Builder
+
 Part 4. Enable Agent: FDS RAG 챗봇
+
 Part 5. Enable Agent 프로젝트
 
 제5부: Enable Agent: Vision 객체 탐지
+
 Part 1. Enable Agent: YOLOv8 객체 탐지 모델 학습
+
 Part 2. Enable Agent: YOLO Enable Agent 구현
+
 Part 3. Enable Agent: Detection Context Builder 구현
+
 Part 4. Enable Agent: Plastic Detection RAG 챗봇
+
 Part 5. Enable Agent 프로젝트
 
 결론: 마무리 하며
+
 References: 참고 문헌
 
 
